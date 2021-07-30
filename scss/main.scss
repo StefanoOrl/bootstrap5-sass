@@ -1,0 +1,24 @@
+@import 'custom';
+
+// IMPORT COMPONENTS
+
+@import 'components/animations';
+@import 'components/mixins';
+@import 'components/typography';
+@import 'components/buttons';
+
+// IMPORT SECTIONS
+
+@import 'sections/navbar';
+@import 'sections/intro-section';
+@import 'sections/companies';
+@import 'sections/services';
+@import 'sections/testimonials';
+@import 'sections/faq';
+@import 'sections/portfolio';
+@import 'sections/get-started';
+@import 'sections/footer';
+
+a {
+  @include transitionProperty;
+}
